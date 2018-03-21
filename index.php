@@ -5,8 +5,8 @@
 	if(isset($_COOKIE['log']) && $_COOKIE['log'] == Criptografar(1)) {
 		require_once 'temp/home.php';
 	}else {
-		echo d'<script>location.href="login";</script>';
-	}
+		echo '<script>location.href="login";</script>';
+	}ss
 
 
 ?>
